@@ -1,0 +1,142 @@
+.zoom-70{
+    zoom: 70%;
+}
+.zoom-80{
+    zoom: 80%;
+}
+.zoom-90{
+    zoom: 90%;
+}
+.swiper-slide {
+    text-align: center;
+    background: var(--color-overblack-mid);
+    color:#fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+/*-------xl--------*/
+@media only screen and (min-width:1200px) {
+}
+@media only screen and (min-width:1024px) and (max-width:1200px){
+    .zoom-xl-90{
+        zoom: 90%;
+    }
+    .zoom-xl-80{
+        zoom: 80%;
+    }
+    .zoom-xl-70{
+        zoom: 70%;
+    }
+}
+@media only screen and (min-width:1024px) {
+
+}
+
+@media only screen and (max-width:1023px) {
+    .zoom-trim{
+        zoom: 90%;
+    }
+}
+/*-------lg-------*/
+@media only screen and (max-width:1190px) {
+
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    .zoom-lg-90{
+        zoom: 90%;
+    }
+    .zoom-lg-80{
+        zoom: 80%;
+    }
+    .zoom-lg-70{
+        zoom: 70%;
+    }
+}
+@media only screen and (min-width:992px) {
+
+}
+/*--------md------*/
+
+@media only screen and (max-width:991px) {
+    .swiper-slide {
+        width: 100%!important;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    .zoom-md-90{
+        zoom: 90%;
+    }
+    .zoom-md-80{
+        zoom: 80%;
+    }
+    .zoom-md-70{
+        zoom: 70%;
+    }
+}
+@media only screen and (min-width:768px) {
+    .pt-md-6, .py-md-6 {
+        padding-top: 6rem!important;
+    }
+    .pb-md-6, .py-md-6 {
+        padding-bottom: 6rem!important;
+    }
+}
+/*---------sm-------*/
+@media only screen and (max-width:767px) {
+
+}
+@media only screen and (min-width:576px) and (max-width:767px){
+    .zoom-sm-90{
+        zoom: 90%;
+    }
+    .zoom-sm-80{
+        zoom: 80%;
+    }
+    .zoom-sm-70{
+        zoom: 70%;
+    }
+}
+@media only screen and (min-width:576px) {
+
+}
+/*----------xs--------*/
+@media only screen and (max-width:575px) {
+    .zoom-xs-90{
+        zoom: 90%;
+    }
+    .zoom-xs-80{
+        zoom: 80%;
+    }
+    .zoom-xs-70{
+        zoom: 70%;
+    }
+}
+@media only screen and (min-width:425px) and (max-width:575px){
+
+
+}
+@media only screen and (max-width:425px) {
+    .zoom-trim{
+        zoom: 80%;
+    }
+}
+
+
+@media only screen and (max-width:375px) {
+
+}
+
+@media only screen and (max-width:320px) {
+
+}
